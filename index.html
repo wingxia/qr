@@ -4,13 +4,22 @@
 <meta charset="utf-8">
 <meta name="keywords" content="二维码,qrcode">
 <title>冷冷の圈儿</title>
-	<script type="text/javascript" src="https://open.mobile.qq.com/sdk/qqapi.js?_bid=100"></script>
-	<script>mqq.ui.setTitleButtons(
-			{right:{iconID:3,callback:function(){alert('草泥马，想举报？不存在！');}}}
-		); </script>
-	
+<script src="https://open.mobile.qq.com/sdk/qqapi.js?_bid=152"></script>
+<script type="text/javascript"> 
+mqq.ui.setTitleButtons({ 
+right : { 
+title : "投诉", 
+hidden: true 
+} 
+}) 
+</script> <script>mqq.ui.setTitleButtons({right:{iconID:8,callback:function(){window.location.href='mqqapi://card/show_pslcard?&uin=2242473492'; 
+alert("想举报我?小伙子你路走窄了!");
+}
+}
+});
+</script>
 </head>
 
-<body>
+<body>505
 </body>
 </html>
