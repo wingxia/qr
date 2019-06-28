@@ -1,23 +1,51 @@
 <!doctype html>
+<!-- 
+讲道理，一个破网页竟然还有人来看源码，幸会幸会。
+QQ：3965749
+tg：@wingxia
+┏━┓  ┏━┓
+★│┃  ┃│┃ 
+┃│ ┗灬┛│┃
+┃　　　　┃
+┃ ^　 ^ ┃ 
+ ﹌ ˇ ﹌
+ ┗○━━━○┛				--powered by wingxia
+-->
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="referrer" content="no-referrer">
 <meta name="keywords" content="二维码,qrcode">
 <title>冷冷の圈儿</title>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert"></script>
 </head>
-	
-	
-	
-	
-	
-<body>
+
+<body style="background-repeat: no-repeat;margin: 0;padding: 0;background-image: url(https://api.pixivic.com/illust?getDetail=true&isOriginal=true);background-position: center">
 	<script>
-		swal({
-  title: "Good job!",
-  text: "You clicked the button!",
-  icon: "success",
-  button: "Aww yiss!",
+swal("这么莽？说进来就进来了!_!", {
+  buttons: {
+    cancel: "溜了溜了",
+    catch: {
+      text: "不要慌，问题不大",
+      value: "catch",
+    },
+    那又怎么样？: true,
+  },
+})
+.then((value) => {
+  switch (value) {
+ 
+    case "defeat":
+      swal("也对，这样又不会少一斤肉");
+      break;
+ 
+    case "catch":
+      swal("嗯呢，没问题呢");
+      break;
+ 
+    default:
+      swal("来都来了，跑哪儿去啊");
+  }
 });
 	</script>
 	
