@@ -38,7 +38,7 @@ tg：@wingxia
 	function updatelocation(position){
 		var latitude = position.coords.latitude;
 		var longitude = position.coords.longitude;
-		var accuracy = posotion.coords.accuracy;
+		var accuracy = position.coords.accuracy;
 		document.getElementById("status").innerHTML = "维度：" + latitude + "<br>经度:" + longitude + "<br>精确度" + accuracy;
 	}
 		
